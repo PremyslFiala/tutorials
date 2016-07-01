@@ -153,10 +153,10 @@ however, we can make it look even better:
 <div class="collapse navbar-collapse">
     <?php // update to: ?>
     <?= $this->navigation('navigation')
-        ->menu()
-        ->setMinDepth(0)
-        ->setMaxDepth(0)
-        ->setUlClass('nav navbar-nav') ?>
+           ->menu()
+           ->setMinDepth(0)
+           ->setMaxDepth(0)
+           ->setUlClass('nav navbar-nav') ?>
 </div>
 ```
 
