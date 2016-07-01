@@ -182,7 +182,9 @@ output the content from the view, let's add a breadcrumb by using the
 <?php // module/Application/view/layout/layout.phtml: ?>
 <div class="container">
     <?php // add the following line: ?>
-    <?= $this->navigation('navigation')->breadcrumbs()->setMinDepth(0) ?>
+    <?= $this->navigation('navigation')
+             ->breadcrumbs()
+             ->setMinDepth(0) ?>
     <?= $this->content ?>
 </div>
 ```
